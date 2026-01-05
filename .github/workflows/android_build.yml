@@ -1,4 +1,4 @@
-zname: Android Build
+name: Android Build
 
 on:
   push:
