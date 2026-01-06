@@ -4,10 +4,10 @@ binding.workspace = file('./')
 // Include Projects
 // -------------------------------------------------------------------------------------------------
 
-    include(':EngineeringModel')
-    include(':FlightLauncher')
-    include(':ST15FlightMode') {
-    include(':ST15Tools') {
+    includeProject(':ST15Tools')(':EngineeringModel')
+    includeProject(':ST15Tools')(':FlightLauncher')
+    //include(':ST15FlightMode') {
+    //include(':ST15Tools') {
     
     //includeProject(':ST15Tools') {
     //exclude { path -> path.contains('-sample') }
