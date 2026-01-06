@@ -4,8 +4,8 @@ binding.workspace = file('./')
 // Include Projects
 // -------------------------------------------------------------------------------------------------
 
-    includeProject(':ST15Tools')(':EngineeringModel')
-    includeProject(':ST15Tools')(':FlightLauncher')
+    include(':EngineeringModel') {
+    //include(':FlightLauncher') {
     //include(':ST15FlightMode') {
     //include(':ST15Tools') {
     
